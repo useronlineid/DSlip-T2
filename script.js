@@ -143,7 +143,7 @@ function updateDisplay() {
             drawText(ctx, amountText, amountX, amountY, '56.40px TTB Money', '#00225c', '600', 'left', 1.5, 3, 0, 0, 500, 1);
             
             const amountWidth = ctx.measureText(amountText).width;
-            drawText(ctx, amountUnit, amountX + amountWidth + 7.5, amountY, '40.30px TTB Money', '#00225c', '600', 'left', 1.5, 0, 0, 0, 500, 1.5);
+            drawText(ctx, amountUnit, amountX + amountWidth + spacing, amountY, '40.30px TTB Money', '#00225c', '600', 'left', 1.5, 0, 0, 0, 500, 1.5);
             
             
             drawText(ctx, `${QRCode}`, 238.9, 599.0, '33px Kanit', '#4e4e4e', '500', 'left', 1.5, 5, 0, 0, 500, 0);
