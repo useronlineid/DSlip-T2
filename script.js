@@ -49,6 +49,7 @@ function updateDisplay() {
     const AideMemoire = document.getElementById('AideMemoire').value || '-';
     const selectedImage = document.getElementById('imageSelect').value || '';
     const QRCode = document.getElementById('QRCode').value || '';
+    const spacing = parseInt(document.getElementById('spacing').value, 10) || 6;
 
     let bankLogoUrl = '';
     switch (bank) {
